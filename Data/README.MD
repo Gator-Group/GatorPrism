@@ -22,25 +22,6 @@ We generated two paired spatial multi-omics datasets following the nonnegative s
 
 The two ready-to-use simulated datasets are distributed with this repository as ZIP archives.
 
-
-An expected local layout is:
-
-```text
-data/
-├── human_lymph_node_A1_RNA.h5ad
-├── human_lymph_node_A1_ADT.h5ad
-├── mouse_embryonic_E11_RNA.h5ad
-├── mouse_embryonic_E11_ATAC.h5ad
-├── sim_RNA_ADT/
-│   ├── adata_RNA.h5ad
-│   ├── adata_ADT.h5ad
-│   └── ground_truth.txt
-└── sim_RNA_ATAC/
-    ├── adata_RNA.h5ad
-    ├── adata_ATAC.h5ad
-    └── ground_truth.txt
-```
-
 ## Reference
 
 Townes, F. W. & Engelhardt, B. E. [Nonnegative spatial factorization applied to spatial genomics](https://doi.org/10.1038/s41592-022-01687-w). *Nature Methods* **20**, 229–238 (2023).
