@@ -9,7 +9,7 @@
 - pandas: 2.0 
 - scikit-learn: 1.3 
 - scipy: 1.10 
-- torch: 2.1 
+- torch: 2.4 
 
 ## Project Structure
 
