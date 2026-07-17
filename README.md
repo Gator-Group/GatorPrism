@@ -10,7 +10,6 @@
 - scikit-learn: 1.3 
 - scipy: 1.10 
 - torch: 2.1 
-- R with the `mclust` package
 
 ## Project Structure
 
@@ -67,7 +66,6 @@ python main.py \
   --modality RNA=data/human_lymph_node_A1_RNA.h5ad \
   --modality ADT=data/human_lymph_node_A1_ADT.h5ad \
   --n-domains 10 \
-  --n-prototypes 10 \
   --output saved_results/human_lymph_node_A1
 ```
 
