@@ -12,6 +12,7 @@ All experimental datasets used in this study are publicly accessible.
 | Human Tonsil | RNA + protein (ADT) | Human tonsil sections S1 and S2 | [Zenodo record 18946723](https://doi.org/10.5281/zenodo.18946723) |
 | Spatial ATAC–RNA-seq Mouse Brain | RNA + ATAC | Postnatal day 22 (P22) mouse brain | [UCSC Cell Browser](https://brain-spatial-omics.cells.ucsc.edu/) |
 | Mouse Embryonic MISAR-seq | RNA + ATAC | Developing mouse brain; E11.0 and E18.5 sections used in this study | [BioSino NODE: OEP003285](https://www.biosino.org/node/project/detail/OEP003285) |
+| Spatial-Mux-seq Mouse Brain | RNA + ATAC + protein (ADT) | 5-month-old EAE mouse brain; sample `5M_20um`, 20-µm spatial pixels | [NCBI Gene Expression Omnibus: GSE263333](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263333) |
 
 ## Simulated datasets
 
