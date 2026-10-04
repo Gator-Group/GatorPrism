@@ -1,6 +1,6 @@
 # Datasets
 
-GatorPrism was evaluated on publicly available spatial multi-omics datasets and two paired simulated datasets. This page documents the source of each public dataset, the simulation model and parameters, and the expected data organization. Public datasets are not redistributed by this repository; users should obtain them from the original providers and comply with the corresponding terms of use.
+GatorPrism was evaluated on publicly available spatial multi-omics datasets, including a real RNA–ATAC–protein dataset, and three simulated datasets: two paired dual-omics datasets and one trimodal dataset. This page documents the source of each public dataset, the simulated datasets, and the expected organization of the trimodal inputs. Public datasets are not redistributed by this repository; users should obtain them from the original providers and comply with the corresponding terms of use.
 
 ## Public datasets
 
