@@ -1,6 +1,6 @@
 # Datasets
 
-GatorPrism was evaluated on publicly available spatial multi-omics datasets, including a real RNA–ATAC–protein dataset, and three simulated datasets: two paired dual-omics datasets and one trimodal dataset. This page documents the source of each public dataset, the simulated datasets, and the expected organization of the trimodal inputs. Public datasets are not redistributed by this repository; users should obtain them from the original providers and comply with the corresponding terms of use.
+GatorPrism was evaluated on real dual-omics and tri-omics spatial datasets, as well as simulated dual-omics and tri-omics spatial datasets. This page lists the sources of the real datasets and summarizes the simulated datasets. All simulated datasets are provided as ZIP archives in this directory. Real datasets should be obtained from the original providers under their applicable terms of use.
 
 ## Public datasets
 
@@ -16,13 +16,17 @@ All experimental datasets used in this study are publicly accessible.
 
 ## Simulated datasets
 
-We generated two paired spatial multi-omics datasets following the nonnegative spatial factorization framework described by [Townes and Engelhardt](https://doi.org/10.1038/s41592-022-01687-w). Both simulations use a shared latent spatial-factor model but differ in geometry, feature dimensions, and domain number:
+We generated three paired spatial multi-omics datasets following the nonnegative spatial factorization framework described by [Townes and Engelhardt](https://doi.org/10.1038/s41592-022-01687-w). They use a shared latent spatial-factor framework but differ in geometry, feature dimensions, modality number, and ground-truth domain number:
 
-- **Simulated RNA + ADT:** four geometric shape factors plus background, giving five ground-truth domains;
+- **Simulated RNA + ADT:** four geometric shape factors plus background, giving five ground-truth domains.
 - **Simulated RNA + ATAC:** six nested square-ring factors, giving six ground-truth domains without a background class.
 - **Simulated RNA + ADT + ATAC:** five geometric shape factors plus background, giving six ground-truth domains. 
 
-The three ready-to-use simulated datasets are distributed with this repository as ZIP archives.
+The three ready-to-use simulated datasets are distributed with this repository as ZIP archives:
+
+- [sim_RNA_ADT.zip](./sim_RNA_ADT.zip)
+- [sim_RNA_ATAC.zip](./sim_RNA_ATAC.zip)
+- [sim_RNA_ADT_ATAC.zip](./sim_RNA_ADT_ATAC.zip)
 
 ## Reference
 
