@@ -19,8 +19,9 @@ We generated two paired spatial multi-omics datasets following the nonnegative s
 
 - **Simulated RNA + ADT:** four geometric shape factors plus background, giving five ground-truth domains;
 - **Simulated RNA + ATAC:** six nested square-ring factors, giving six ground-truth domains without a background class.
+- **Simulated RNA + ADT + ATAC:** five geometric shape factors plus background, giving six ground-truth domains. 
 
-The two ready-to-use simulated datasets are distributed with this repository as ZIP archives.
+The three ready-to-use simulated datasets are distributed with this repository as ZIP archives.
 
 ## Reference
 
